@@ -1,0 +1,46 @@
+PODS:
+  - PINCache (3.0.1-beta.5):
+    - PINCache/Arc-exception-safe (= 3.0.1-beta.5)
+    - PINCache/Core (= 3.0.1-beta.5)
+  - PINCache/Arc-exception-safe (3.0.1-beta.5):
+    - PINCache/Core
+  - PINCache/Core (3.0.1-beta.5):
+    - PINOperation (= 1.0.3)
+  - PINOperation (1.0.3)
+  - PINRemoteImage/Core (3.0.0-beta.12):
+    - PINOperation
+  - PINRemoteImage/iOS (3.0.0-beta.12):
+    - PINRemoteImage/Core
+  - PINRemoteImage/PINCache (3.0.0-beta.12):
+    - PINCache (= 3.0.1-beta.5)
+    - PINRemoteImage/Core
+  - Texture (2.5):
+    - Texture/PINRemoteImage (= 2.5)
+  - Texture/Core (2.5)
+  - Texture/PINRemoteImage (2.5):
+    - PINRemoteImage/iOS (= 3.0.0-beta.12)
+    - PINRemoteImage/PINCache
+    - Texture/Core
+
+DEPENDENCIES:
+  - Texture (from `https://github.com/TextureGroup/Texture.git`, commit `7a07d9`)
+
+EXTERNAL SOURCES:
+  Texture:
+    :commit: 7a07d9
+    :git: https://github.com/TextureGroup/Texture.git
+
+CHECKOUT OPTIONS:
+  Texture:
+    :commit: 7a07d9
+    :git: https://github.com/TextureGroup/Texture.git
+
+SPEC CHECKSUMS:
+  PINCache: 98e7b1ef782824ad231ade51987c218b758c30d8
+  PINOperation: ac23db44796d4a564ecf9b5ea7163510f579b71d
+  PINRemoteImage: 0cefe720c2612960bd360710efbd6c73a1991d5f
+  Texture: 60f9754cc93cf81989921467a5dff32814ed8be7
+
+PODFILE CHECKSUM: 587e3377ec0c6fc3633dcf9c58c170dc4e8e9308
+
+COCOAPODS: 1.3.1
